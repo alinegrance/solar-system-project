@@ -1,3 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  color: white;
+  background-image: url(https://images.wallpaperscraft.com/image/single/stars_space_dark_139528_1920x1080.jpg);
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.flex-mission {
+  border: 5px solid rgb(121, 121, 121);
+  border-radius: 20px;
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+}
+
+.flex-planet {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 450px;
+  margin: 10px;
+  width: 450px;
 }

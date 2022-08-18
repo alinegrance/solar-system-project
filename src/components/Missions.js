@@ -1,3 +1,4 @@
+import '../App.css';
 import React from 'react';
 import Title from './Title';
 import MissionCard from './MissionCard';
@@ -8,7 +9,7 @@ class Missions extends React.Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        <div>
+        <div className="flex-box">
           {
             missions
               .map((mission, index) => (<MissionCard

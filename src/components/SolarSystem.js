@@ -2,13 +2,14 @@ import React from 'react';
 import PlanetCard from './PlanetCard';
 import planets from '../data/planets';
 import Title from './Title';
+import '../App.css';
 
 class SolarSystem extends React.Component {
   render() {
     return (
       <div data-testid="solar-system">
         <Title headline="Planetas" />
-        <div>
+        <div className="flex-box">
           {
             planets
               .map((p, i) => (

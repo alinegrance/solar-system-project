@@ -3,31 +3,56 @@
   padding: 0;
 }
 
+h1 {
+  font-size: 4.5em;
+  margin: 10px;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 3.5em;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
 .App {
-  text-align: center;
-  color: white;
   background-image: url(https://images.wallpaperscraft.com/image/single/stars_space_dark_139528_1920x1080.jpg);
+  color: rgb(197, 211, 210);
+  font-family: Acme , sans-serif;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .flex-box {
+  align-self: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-self: center;
+  justify-content: space-evenly;
 }
 
 .flex-mission {
   border: 5px solid rgb(121, 121, 121);
   border-radius: 20px;
-  height: 200px;
+  height: 150px;
   margin: 10px;
   width: 200px;
 }
 
 .flex-planet {
-  border: 1px solid black;
   border-radius: 20px;
-  height: 450px;
+  height: 250px;
   margin: 10px;
-  width: 450px;
+  width: 250px;
+}
+
+.planet-img {
+  width: 100%;
+}
+
+.planet-img:hover {
+  transform: scale(1.2);
 }

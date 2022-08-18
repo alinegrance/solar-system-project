@@ -19,7 +19,7 @@ h3 {
 }
 
 .App {
-  background-image: url(https://images.wallpaperscraft.com/image/single/stars_space_dark_139528_1920x1080.jpg);
+  background-image: url('https://images.wallpaperscraft.com/image/single/stars_space_dark_139528_1920x1080.jpg');
   color: rgb(197, 211, 210);
   font-family: Acme , sans-serif;
   padding-bottom: 30px;
